@@ -4,7 +4,7 @@
 
 ## Integrantes
 
-- Rodrigo Pulgar Roco
+- Roberto Pulgar Roco
 - Javier Muñoz Salinas
 
 ## Descripcion
