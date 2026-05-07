@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'nombre de tu fuente', sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    align-items: center;
+    overflow: hidden;
+}
+.navbar-brand img {
+  height: 20px;
+  width: auto;
+  object-fit: contain;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
