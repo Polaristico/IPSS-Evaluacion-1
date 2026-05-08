@@ -1,29 +1,41 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'nombre de tu fuente', sans-serif;
+
+:root {
+    --primary: #006d38;
+    --primary-container: #00a859;
+    --on-primary: #ffffff;
+    --accent: #59df89;
+    --surface: #f7f9fb;
+    --surface-container: #eceef0;
+    --text-main: #191c1e;
+    --text-variant: #3d4a3f;
+    --outline-variant: #bccabc;
 }
 
-.navbar {
-    height: 70px;
-    display: flex;
-    background-color: rgb(180, 180, 180);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    align-items: center;
-    overflow: hidden;
-}
-.navbar-brand img {
-  height: 20px;
-  width: auto;
-  object-fit: contain;
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
-.btn {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.btn-primary:hover {
+    background-color: var(--primary-container);
+    border-color: var(--primary-container);
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--primary) !important;
 }
