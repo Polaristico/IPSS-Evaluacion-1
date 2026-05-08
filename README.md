@@ -26,19 +26,23 @@ la Página tendra 6 secciones:
 ## Como correr localmente
 
 ```bash
-git clone [URL]
-cd [carpeta]
+git clone https://github.com/Polaristico/IPSS-Evaluacion-1.git
+cd IPSS-Evaluacion-1
 # Abrir index.html en el navegador
 # O con un servidor:
 python3 -m http.server 8000
 ```
 
+## Sitio publicado
+
+[https://polaristico.github.io/IPSS-Evaluacion-1/](https://polaristico.github.io/IPSS-Evaluacion-1/)
+
+
 ## Estructura del proyecto
 
 ├── index.html
-10
 ├── css/
-│ └── custom.css ← CSS propio, cargado DESPUÉS de Bootstrap
+│ └── styles.css ← CSS propio, cargado DESPUÉS de Bootstrap
 ├── js/
 │ └── main.js ← Eventos y JS propio
 └── img/
