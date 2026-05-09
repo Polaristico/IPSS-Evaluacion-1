@@ -21,6 +21,19 @@
     border-color: var(--primary-container);
 }
 
+.btn-primary:active,
+.btn-primary:active:focus {
+    background-color: var(--primary-container);
+    border-color: var(--primary-container);
+    box-shadow: none !important;
+}
+
+.btn-primary:focus-visible {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--accent);
+}
+
 .btn-outline-primary {
     color: var(--primary);
     border-color: var(--primary);
@@ -39,3 +52,4 @@
 .navbar .nav-link.active {
     color: var(--primary) !important;
 }
+
