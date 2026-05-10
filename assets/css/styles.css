@@ -1,48 +1,54 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'nombre de tu fuente', sans-serif;
+
+:root {
+    --primary: #1caf68;
+    --primary-container: #00a859;
+    --on-primary: #ffffff;
+    --accent: #59df89;
+    --surface: #f7f9fb;
+    --surface-container: #eceef0;
+    --text-main: #191c1e;
+    --text-variant: #3d4a3f;
+    --outline-variant: #bccabc;
 }
 
-.navbar {
-    height: 70px;
-    display: flex;
-    background-color: rgb(180, 180, 180);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    align-items: center;
-    overflow: hidden;
-}
-.navbar-brand img {
-  height: 20px;
-  width: auto;
-  object-fit: contain;
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
-.btn {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.btn-primary:hover {
+    background-color: var(--primary-container);
+    border-color: var(--primary-container);
 }
 
-*,
-::before,
-::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.btn-primary:active,
+.btn-primary:active:focus {
+    background-color: var(--primary-container);
+    border-color: var(--primary-container);
+    box-shadow: none !important;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #59CDE9;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0A2A88, #59CDE9);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0A2A88, #59CDE9);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.btn-primary:focus-visible {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--accent);
+}
 
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--primary) !important;
 }
