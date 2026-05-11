@@ -93,7 +93,7 @@ form.grupo {
 
 .enviar {
     background-color: var(--primary);
-    color: #ffffff;
+    color: #070707;
     border: none;
     padding: 10px 50px;
     border-radius: 4px;
@@ -102,7 +102,7 @@ form.grupo {
 
    input, textarea{
     background:none;
-    color: #b3a7a7;
+    color: #000000;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display:block;
@@ -115,4 +115,19 @@ form.grupo {
 input:focus, textarea:focus{
     outline:none;
     border-bottom: 2px solid var(--primary);
+}
+
+
+label {
+    font-size: 18px;
+    color: var(--text-variant);
+    margin-bottom: 5px;
+    transition: 0.6s ease all;
+    top: 10px;
+    left: 5px;
+}
+.class,h1 {
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 10px;
 }
