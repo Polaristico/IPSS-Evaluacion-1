@@ -132,14 +132,14 @@ label {
     margin-bottom: 10px;
 }
 /**footter **/
-.footer-container{
+.footer{
 
 background-color:#181a11;
 border-radius: 30px;
 text-align: center;
 
 }
-.footer-container{
+.footer{
     color: #ffffff;
     padding: 20px;
     margin: 0;
