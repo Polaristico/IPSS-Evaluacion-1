@@ -132,7 +132,27 @@ label {
     margin-bottom: 10px;
 }
 /**footter **/
-.footer-container{
+.footer{
 
-background-color:#83a50a
+background-color:#181a11;
+border-radius: 30px;
+text-align: center;
+
+}
+.footer{
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+    padding: 20px;
+}
+article {
+    color: #ffffff;
+    
+}
+
+.footer__social {
+    display: inline-block;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
 }
