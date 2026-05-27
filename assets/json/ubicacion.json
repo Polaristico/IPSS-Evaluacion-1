@@ -1,0 +1,10 @@
+{
+  "empresa": "Mi Negocio Los Andes",
+  "direccion": "Calle Señor Pobre 90, Los Andes, Chile",
+  "telefono": "+56 9 1234 5678",
+  "email": "contacto@minegocio.cl",
+  "coordenadas": {
+    "lat": -32.8337,
+    "lng": -70.5983
+  }
+}

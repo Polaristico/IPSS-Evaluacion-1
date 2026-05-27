@@ -156,3 +156,78 @@ article {
     gap: 20px;
     margin-top: 10px;
 }
+
+// este codigo abajo es un prototipo de footeer//
+
+
+/* Reset general básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos específicos del Footer Negro */
+.dark-footer {
+    background-color: #0b0c10; /* Negro profundo */
+    color: #c5c6c7; /* Gris claro para lectura suave */
+    padding: 50px 20px 20px 20px;
+}
+
+.footer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.footer-block h3 {
+    color: #66fcf1; /* Acento verde agua/cian brillante */
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+/* Línea decorativa inferior en los títulos */
+.footer-block h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 20px;
+    border-bottom: 3px solid #45f3ff;
+}
+
+.footer-block p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.footer-block strong {
+    color: #ffffff; /* Negritas en color blanco puro */
+}
+
+/* Contenedor adaptativo del Mapa */
+#map-container {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    border: 1px solid #1f2833;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background-color: #1f2833;
+}
+
+/* Créditos del final */
+.footer-credits {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #1f2833;
+    font-size: 0.85rem;
+    color: #66fcf1;
+}
